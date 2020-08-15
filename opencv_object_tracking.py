@@ -14,6 +14,8 @@ tracker = cv2.TrackerMOSSE_create()
 
 
 cap = cv2.VideoCapture(0)
+
+'''
 # TRACKER INITIALIZATION
 success, frame = cap.read()
 bbox = cv2.selectROI("Tracking", frame, False)
@@ -58,3 +60,4 @@ while True:
     cv2.imshow("Tracking", img)
     if cv2.waitKey(1) == ord('q'):
         break
+'''
